@@ -33,7 +33,7 @@
 `md static`
 
 名稱      | 用途 
----       | ---    :
+---       | ---    
 templates | 用來存放顯示的模板(.html檔)
 static    | 用來存放圖片、CSS和JavaScript檔
 注意:這兩個檔案要與myapp應用程式平行
