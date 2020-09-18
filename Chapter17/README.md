@@ -15,12 +15,12 @@
 建立後會在當前路徑生成一個myproject資料夾
 專案內各檔案說明:
 
-| 檔案或目錄    | 說明   |
-| ------       | -----   :  |
-| manage.py    | python命令檔，用來建立app、啟動server|
-| __init.py__  | 一個空檔，使該資料夾(這裡指下層myproject資料夾)成為一個python package |
-| settings.py  | 設定檔|
-| url.py       | 路徑頁面的配置|
+ 檔案或目錄    | 說明   
+ ------       | -----    
+ manage.py    | python命令檔，用來建立app、啟動server
+ __init.py__  | 一個空檔，使該資料夾(這裡指下層myproject資料夾)成為一個python package 
+ settings.py  | 設定檔
+ url.py       | 路徑頁面的配置
 
 
 ## 建立Application 應用程式
