@@ -8,6 +8,7 @@
 
 ## 建立Django專案
 使用命令提示字元執行以下指令
+
 建立專案語法
 
 `django-admin startproject 專案名稱`
@@ -17,9 +18,10 @@
 `django-admin startproject myproject`
 
 建立後會在當前路徑生成一個myproject資料夾
+
 專案內各檔案說明:
 
- 檔案或目錄    | 說明   
+ 檔案    | 說明   
  ------       | -----    
  manage.py    | python命令檔，用來建立app、啟動server
  __init.py__  | 一個空檔，使該資料夾(這裡指下層myproject資料夾)成為一個python package 
