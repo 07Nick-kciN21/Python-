@@ -9,9 +9,13 @@
 ## 建立Django專案
 使用命令提示字元執行以下指令
 建立專案語法
+
 `django-admin startproject 專案名稱`
+
 建立一個myproject專案
+
 `django-admin startproject myproject`
+
 建立後會在當前路徑生成一個myproject資料夾
 專案內各檔案說明:
 
@@ -25,11 +29,17 @@
 
 ## 建立Application 應用程式
 建立應用程式語法
+
 `python manage.py startapp "應用程式名稱"`
+
 在最上層目錄建立一個myapp應用程式
+
 `python manage.py startapp myapp`
+
 完成後還須建立templates和static資料夾
+
 `md templates`
+
 `md static`
 
 名稱      | 用途 
@@ -92,6 +102,7 @@ STATIC_FILES_DIRS = [               #加入 static 路徑檔
 
 ## 以伺服器瀏覽
 用 manager.py 啟動Server
+
 ` python manager.py runserver `
 
 打開瀏覽器輸入http://127.0.0.1:8000 就能看見網頁
